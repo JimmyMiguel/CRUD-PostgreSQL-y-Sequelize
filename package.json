@@ -1,0 +1,20 @@
+{
+  "name": "SQL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "pg": "^8.17.2",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "@types/sequelize": "^6.12.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",              // Versión de JS a compilar
+      "module": "CommonJS",            // Sistema de módulos para Node
+      "rootDir": "./src",              // Carpeta con el código fuente
+      "outDir": "./dist",              // Carpeta para el código compilado
+      "strict": true,                  // Activa todas las comprobaciones estrictas
+      "esModuleInterop": true,         // Para importar módulos comunes sin problemas
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true
+    },
+    "include": ["src/**/*"],           // Archivos TS a compilar
+    "exclude": ["node_modules"],
+    
+  }
+  
